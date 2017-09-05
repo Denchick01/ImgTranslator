@@ -1,0 +1,20 @@
+api:
+        visionApiKey: cf5d7e2032d044ab9e2156e11452d3e8
+        visionServerUrl:  https://westcentralus.api.cognitive.microsoft.com/vision/v1.0
+        grammarApiKey: undef
+        grammarServerUrl:  http://speller.yandex.net
+        grammarResourceUrl: /services/spellservice.json/checkText
+        translatorApiKey: trnsl.1.1.20170818T180222Z.d8906633efaa4c78.443b64b8ad98718b90233fedb40f19a7ab9bae7f
+        translatorServerUrl:  https://translate.yandex.net
+        translatorResourceUrl: /api/v1.5/tr.json/translate
+server:
+        httpServerHost: localhost  
+        httpServerPort: 2345
+        httpServerLogFile: httpServerLog.log
+db:
+        host: localhost
+        port: 5432
+        user: newusr 
+        password: 123456
+        dbname: trdb
+
